@@ -65580,7 +65580,7 @@
           "x": 1360,
           "y": 0,
           "name": "drawerPanel",
-          "width": 798,
+          "width": 560,
           "height": 1080,
           "fill": "#FFFFFF",
           "layout": "vertical",
@@ -89686,7 +89686,7 @@
               "height": "fill_container",
               "fill": "#F3F6FB",
               "layout": "vertical",
-              "gap": 12,
+              "gap": 16,
               "padding": [
                 16,
                 20
@@ -90238,183 +90238,10 @@
                 },
                 {
                   "type": "frame",
-                  "id": "odBxt",
-                  "name": "statsBar",
-                  "width": "fill_container",
-                  "gap": 12,
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "A9BYb",
-                      "name": "stat1",
-                      "width": "fill_container",
-                      "fill": "#FFFFFF",
-                      "cornerRadius": 6,
-                      "stroke": {
-                        "align": "inside",
-                        "thickness": 1,
-                        "fill": "#EBEEF5"
-                      },
-                      "layout": "vertical",
-                      "gap": 4,
-                      "padding": [
-                        12,
-                        16
-                      ],
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "twpXJ",
-                          "name": "s1Label",
-                          "fill": "#909399",
-                          "content": "模板字段总数",
-                          "fontFamily": "Inter",
-                          "fontSize": 12,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
-                          "id": "FMpQX",
-                          "name": "s1Value",
-                          "fill": "#409EFF",
-                          "content": "24",
-                          "fontFamily": "Inter",
-                          "fontSize": 24,
-                          "fontWeight": "700"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "XbVuR",
-                      "name": "stat2",
-                      "width": "fill_container",
-                      "fill": "#FFFFFF",
-                      "cornerRadius": 6,
-                      "stroke": {
-                        "align": "inside",
-                        "thickness": 1,
-                        "fill": "#EBEEF5"
-                      },
-                      "layout": "vertical",
-                      "gap": 4,
-                      "padding": [
-                        12,
-                        16
-                      ],
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "hDAji",
-                          "name": "s2Label",
-                          "fill": "#909399",
-                          "content": "必填字段",
-                          "fontFamily": "Inter",
-                          "fontSize": 12,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
-                          "id": "tSJOX",
-                          "name": "s2Value",
-                          "fill": "#303133",
-                          "content": "16",
-                          "fontFamily": "Inter",
-                          "fontSize": 24,
-                          "fontWeight": "700"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "JPgf6",
-                      "name": "stat3",
-                      "width": "fill_container",
-                      "fill": "#FFFFFF",
-                      "cornerRadius": 6,
-                      "stroke": {
-                        "align": "inside",
-                        "thickness": 1,
-                        "fill": "#EBEEF5"
-                      },
-                      "layout": "vertical",
-                      "gap": 4,
-                      "padding": [
-                        12,
-                        16
-                      ],
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "jbjbt",
-                          "name": "s3Label",
-                          "fill": "#909399",
-                          "content": "枚举字段",
-                          "fontFamily": "Inter",
-                          "fontSize": 12,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
-                          "id": "JEQwW",
-                          "name": "s3Value",
-                          "fill": "#67C23A",
-                          "content": "4",
-                          "fontFamily": "Inter",
-                          "fontSize": 24,
-                          "fontWeight": "700"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "H19O4",
-                      "name": "stat4",
-                      "width": "fill_container",
-                      "fill": "#FFFFFF",
-                      "cornerRadius": 6,
-                      "stroke": {
-                        "align": "inside",
-                        "thickness": 1,
-                        "fill": "#EBEEF5"
-                      },
-                      "layout": "vertical",
-                      "gap": 4,
-                      "padding": [
-                        12,
-                        16
-                      ],
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "7LFHQ",
-                          "name": "s4Label",
-                          "fill": "#909399",
-                          "content": "日期字段",
-                          "fontFamily": "Inter",
-                          "fontSize": 12,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "text",
-                          "id": "uM5qY",
-                          "name": "s4Value",
-                          "fill": "#E6A23C",
-                          "content": "3",
-                          "fontFamily": "Inter",
-                          "fontSize": 24,
-                          "fontWeight": "700"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
                   "id": "h9tkG",
                   "name": "tableHeaderOnlyCard",
                   "width": "fill_container",
-                  "height": 260,
+                  "height": 220,
                   "fill": "#FFFFFF",
                   "cornerRadius": 6,
                   "stroke": {
@@ -90989,258 +90816,10 @@
                           "id": "9hXoS",
                           "name": "headerHintText",
                           "fill": "#909399",
-                          "content": "说明：本页仅用于导出模板字段表头，字段类型与校验规则请查看《字段说明》文件。",
+                          "content": "仅导出24字段表头；字段说明与校验规则请下载《字段说明》。",
                           "fontFamily": "Inter",
                           "fontSize": 12,
                           "fontWeight": "normal"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "kRzcJ",
-                  "name": "pager",
-                  "width": "fill_container",
-                  "height": 40,
-                  "fill": "#FFFFFF",
-                  "cornerRadius": [
-                    0,
-                    0,
-                    4,
-                    4
-                  ],
-                  "padding": [
-                    0,
-                    12
-                  ],
-                  "justifyContent": "space_between",
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "7d0fm",
-                      "name": "pagerLeft",
-                      "gap": 4,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "GBHQh",
-                          "name": "pagerTotal",
-                          "fill": "#909399",
-                          "content": "当前展示 8 个核心必填字段",
-                          "fontFamily": "Inter",
-                          "fontSize": 13,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "Q0m0B",
-                      "name": "pagerRight",
-                      "gap": 6,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "maYaj",
-                          "name": "pagerPrev",
-                          "width": 28,
-                          "height": 28,
-                          "fill": "#F4F4F5",
-                          "cornerRadius": 2,
-                          "justifyContent": "center",
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "icon_font",
-                              "id": "x4FUy",
-                              "name": "pagerPrevIcon",
-                              "width": 16,
-                              "height": 16,
-                              "iconFontFamily": "Material Symbols Rounded",
-                              "fill": "#C0C4CC"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "bfeI2",
-                          "name": "pg1",
-                          "width": 28,
-                          "height": 28,
-                          "fill": "#409EFF",
-                          "cornerRadius": 2,
-                          "justifyContent": "center",
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "KQQy9",
-                              "name": "pg1t",
-                              "fill": "#FFFFFF",
-                              "content": "1",
-                              "fontFamily": "Inter",
-                              "fontSize": 13,
-                              "fontWeight": "600"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "1YJtU",
-                          "name": "pg2",
-                          "width": 28,
-                          "height": 28,
-                          "fill": "#F4F4F5",
-                          "cornerRadius": 2,
-                          "justifyContent": "center",
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "PHelf",
-                              "name": "pg2t",
-                              "fill": "#303133",
-                              "content": "2",
-                              "fontFamily": "Inter",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "GKfA6",
-                          "name": "pg3",
-                          "width": 28,
-                          "height": 28,
-                          "fill": "#F4F4F5",
-                          "cornerRadius": 2,
-                          "justifyContent": "center",
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "gABiZ",
-                              "name": "pg3t",
-                              "fill": "#303133",
-                              "content": "3",
-                              "fontFamily": "Inter",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "vZgOi",
-                          "name": "pg4",
-                          "width": 28,
-                          "height": 28,
-                          "fill": "#F4F4F5",
-                          "cornerRadius": 2,
-                          "justifyContent": "center",
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "nxXo0",
-                              "name": "pg4t",
-                              "fill": "#303133",
-                              "content": "4",
-                              "fontFamily": "Inter",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "iXuX6",
-                          "name": "pg5",
-                          "width": 28,
-                          "height": 28,
-                          "fill": "#F4F4F5",
-                          "cornerRadius": 2,
-                          "justifyContent": "center",
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "kVKbN",
-                              "name": "pg5t",
-                              "fill": "#303133",
-                              "content": "5",
-                              "fontFamily": "Inter",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "aGEex",
-                          "name": "pagerNext",
-                          "width": 28,
-                          "height": 28,
-                          "fill": "#F4F4F5",
-                          "cornerRadius": 2,
-                          "justifyContent": "center",
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "icon_font",
-                              "id": "iS9H1",
-                              "name": "pagerNextIcon",
-                              "width": 16,
-                              "height": 16,
-                              "iconFontFamily": "Material Symbols Rounded",
-                              "fill": "#303133"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "OWcrW",
-                          "name": "pagerSize",
-                          "fill": "#FFFFFF",
-                          "cornerRadius": 2,
-                          "stroke": {
-                            "align": "inside",
-                            "thickness": 1,
-                            "fill": "#DCDFE6"
-                          },
-                          "gap": 4,
-                          "padding": [
-                            4,
-                            8
-                          ],
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "gwUx5",
-                              "name": "pagerSizeT",
-                              "fill": "#606266",
-                              "content": "10条/页",
-                              "fontFamily": "Inter",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
-                            },
-                            {
-                              "type": "icon_font",
-                              "id": "1Ggox",
-                              "name": "pagerSizeArrow",
-                              "width": 12,
-                              "height": 12,
-                              "iconFontFamily": "Material Symbols Rounded",
-                              "fill": "#909399"
-                            }
-                          ]
                         }
                       ]
                     }
@@ -91255,12 +90834,142 @@
     {
       "type": "note",
       "id": "SuZ5H",
-      "x": 8812,
+      "x": 6497,
       "y": 19223,
       "name": "noteP5_2_1",
       "width": 250,
       "height": 220,
       "content": "📋 P5.2.1 PMS模板字段表头\n\n【页面用途】仅展示批量导入模板的24个字段表头。\n【展示方式】超宽画布横向展示全量字段，不展开字段类型明细。\n【导出动作】Excel/CSV字段头导出。"
+    },
+    {
+      "type": "note",
+      "id": "280fz",
+      "x": 108,
+      "y": 13600,
+      "name": "noteP4_0",
+      "width": 250,
+      "height": 220,
+      "content": "📋 P4.0 全渠道订单处理池\n\n【核心逻辑】统一承接各渠道订单，执行详情、交付、取消与退改分流。\n【主操作】筛选订单、进入详情、发起核销/取消/退款审批。\n【关键校验】状态流转单向闭环，金额与项目一致。"
+    },
+    {
+      "type": "note",
+      "id": "ZjS7k",
+      "x": 103,
+      "y": 8160,
+      "name": "noteP3_0_1",
+      "width": 250,
+      "height": 220,
+      "content": "📋 P3.0.1 订单详情独立页\n\n【核心逻辑】展示订单主信息与项目明细，作为后续动作入口。\n【主操作】查看客户、渠道、项目、金额与履约状态。\n【关键校验】订单信息需与样例库一致。"
+    },
+    {
+      "type": "note",
+      "id": "53dK9",
+      "x": 10300,
+      "y": 13592,
+      "name": "noteP4_3",
+      "width": 250,
+      "height": 220,
+      "content": "📋 P4.3 独立部分取消\n\n【核心逻辑】支持按子项取消并计算退款差额。\n【主操作】选择子项、填写原因、确认取消。\n【关键校验】已交付项目不可取消。"
+    },
+    {
+      "type": "note",
+      "id": "5uVIN",
+      "x": 11898,
+      "y": 13592,
+      "name": "noteP4_4_submit",
+      "width": 250,
+      "height": 220,
+      "content": "📋 P4.4 退款审批提交\n\n【核心逻辑】提交退款审批并展示审批链路。\n【主操作】填写退款原因/金额、提交审批。\n【关键校验】提交金额不得超过可退金额。"
+    },
+    {
+      "type": "note",
+      "id": "TqEGE",
+      "x": 11898,
+      "y": 14978,
+      "name": "noteP4_4_1_reject",
+      "width": 250,
+      "height": 220,
+      "content": "📋 P4.4.1 退款审批驳回回流\n\n【核心逻辑】承接驳回后的修改与重提。\n【主操作】查看驳回节点、修改申请、重新提交。\n【关键校验】驳回人和驳回节点信息完整留痕。"
+    },
+    {
+      "type": "note",
+      "id": "z3cRl",
+      "x": 2600,
+      "y": 20595,
+      "name": "noteP0_1",
+      "width": 250,
+      "height": 220,
+      "content": "📋 P0.1 全局帮助抽屉\n\n【核心逻辑】提供跨页面操作指引与FAQ。\n【主操作】查看流程说明、关键规则、常见问题。\n【关键校验】说明内容与当前业务规则同步。"
+    },
+    {
+      "type": "note",
+      "id": "U0kss",
+      "x": 6475,
+      "y": 20392,
+      "name": "noteP5_2_2",
+      "width": 250,
+      "height": 220,
+      "content": "📋 P5.2.2 名单导入错误明细页\n\n【核心逻辑】承接批量导入失败记录并支持修复。\n【主操作】查看错误原因、修复后重试导入。\n【关键校验】错误行修复后再入库。"
+    },
+    {
+      "type": "note",
+      "id": "f96KA",
+      "x": 8840,
+      "y": 1360,
+      "name": "noteP2_3",
+      "width": 250,
+      "height": 220,
+      "content": "📋 P2.3 日历交互注释\n\n【核心逻辑】说明日历交互动作与状态定义。\n【主操作】选择日期、查看排班、触发明细页。\n【关键校验】日历状态与资源可用性一致。"
+    },
+    {
+      "type": "note",
+      "id": "VSDKk",
+      "x": 103,
+      "y": 9520,
+      "name": "noteP3_0_2",
+      "width": 250,
+      "height": 220,
+      "content": "📋 P3.0.2 管家团队分配弹窗\n\n【核心逻辑】将订单分配给管家团队并回写责任人。\n【主操作】选择团队、确认分配。\n【关键校验】分配后状态和责任链同步更新。"
+    },
+    {
+      "type": "note",
+      "id": "Pe5Hm",
+      "x": 4260,
+      "y": 14952,
+      "name": "noteP4_1_1",
+      "width": 250,
+      "height": 220,
+      "content": "📋 P4.1.1 服务评价详情抽屉\n\n【核心逻辑】查看服务评价与回访信息。\n【主操作】阅读评分、评价内容与处理记录。\n【关键校验】仅已完成订单可见。"
+    },
+    {
+      "type": "note",
+      "id": "jbUCt",
+      "x": 103,
+      "y": 6800,
+      "name": "noteP3_0",
+      "width": 250,
+      "height": 220,
+      "content": "📋 P3.0 全渠道订单信息处理\n\n【核心逻辑】订单处理主入口，承接多渠道预约。\n【主操作】查询、筛选、分配、下钻详情。\n【关键校验】渠道字段与样例库保持一致。"
+    },
+    {
+      "type": "note",
+      "id": "f3Et4",
+      "x": 11380,
+      "y": 8134,
+      "name": "noteP3_4_1",
+      "width": 250,
+      "height": 220,
+      "content": "📋 P3.4.1 接送机服务弹窗\n\n【核心逻辑】配置接送机服务并计入订单。\n【主操作】选择车型、单程/双程、确认费用。\n【关键校验】价格按五星级酒店标准执行。"
+    },
+    {
+      "type": "note",
+      "id": "iBEQx",
+      "x": 9329,
+      "y": 16312,
+      "name": "noteP4_3_2",
+      "width": 250,
+      "height": 220,
+      "content": "📋 P4.3.2 全部取消弹窗\n\n【核心逻辑】一次性取消全部未交付项目并退款。\n【主操作】确认取消范围、查看退款结果、提交。\n【关键校验】金额计算与订单剩余项目一致。"
     }
   ]
 }
