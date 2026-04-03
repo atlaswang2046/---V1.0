@@ -15028,7 +15028,7 @@
                       "type": "text",
                       "id": "Vj7tz",
                       "fill": "$color_text_secondary",
-                      "content": "字段来源：客户列表重点信息（姓名/手机号/会员等级/客户身份/来源/风险状态）",
+                      "content": "字段来源：客户列表重点信息（姓名/手机号/会员等级/客户身份/来源）",
                       "fontFamily": "Inter",
                       "fontSize": 12,
                       "fontWeight": "500"
@@ -15090,7 +15090,7 @@
                           "type": "text",
                           "id": "8jiLE",
                           "fill": "$color_text_secondary",
-                          "content": "必填：姓名、手机号、会员等级；可选：客户身份、来源、风险状态",
+                          "content": "必填：姓名、手机号、会员等级；可选：客户身份、来源",
                           "fontFamily": "Inter",
                           "fontSize": 12,
                           "fontWeight": "500"
@@ -15117,7 +15117,7 @@
                           "type": "text",
                           "id": "LMFX4",
                           "fill": "$color_text_secondary",
-                          "content": "校验规则：手机号唯一性、来源合法值、风险状态需审批",
+                          "content": "校验规则：手机号唯一性、来源合法值",
                           "fontFamily": "Inter",
                           "fontSize": 12,
                           "fontWeight": "500"
@@ -15212,7 +15212,8 @@
                         "qm1mt": {
                           "height": "fit_content",
                           "x": 832,
-                          "y": 10
+                          "y": 10,
+                          "enabled": false
                         },
                         "aLEBW": {
                           "content": "风险状态",
@@ -15220,8 +15221,9 @@
                         },
                         "bea3D": {
                           "height": "fit_content",
-                          "x": 1052,
-                          "y": 10
+                          "x": 832,
+                          "y": 10,
+                          "enabled": false
                         },
                         "v2TS9": {
                           "content": "校验状态",
@@ -15229,7 +15231,7 @@
                         },
                         "qeJ16": {
                           "height": "fit_content",
-                          "x": 1142,
+                          "x": 832,
                           "y": 10
                         },
                         "Z2GBY": {
@@ -15247,8 +15249,8 @@
                           "x": 12
                         },
                         "C3i1j": {
-                          "content": "KH-2026040101",
-                          "x": 2
+                          "content": "KH-2026041801",
+                          "x": 2.5
                         },
                         "2TpNT": {
                           "height": "fit_content",
@@ -15256,7 +15258,7 @@
                           "x": 112
                         },
                         "a69O5": {
-                          "content": "王*",
+                          "content": "陈*",
                           "x": 60.5
                         },
                         "CVL8Z": {
@@ -15265,8 +15267,8 @@
                           "y": 11
                         },
                         "kkyxe": {
-                          "content": "138****9211",
-                          "x": 16.5
+                          "content": "139****6712",
+                          "x": 15.5
                         },
                         "PAJyQ": {
                           "height": "fit_content",
@@ -15292,22 +15294,24 @@
                           "y": 10
                         },
                         "dUtnR": {
-                          "content": "小程序",
-                          "x": 76.5
+                          "content": "散客",
+                          "x": 82.5
                         },
                         "edCAa": {
                           "height": "fit_content",
                           "x": 832,
-                          "y": 10
+                          "y": 10,
+                          "enabled": false
                         },
                         "7w1DS": {
-                          "content": "高价值",
-                          "x": 91.5
+                          "content": "高价值关注",
+                          "x": 79.5
                         },
                         "uB18t": {
                           "height": "fit_content",
-                          "x": 1052,
-                          "y": 10
+                          "x": 832,
+                          "y": 10,
+                          "enabled": false
                         },
                         "INy4i": {
                           "content": "已通过",
@@ -15316,12 +15320,12 @@
                         },
                         "weYum": {
                           "height": "fit_content",
-                          "x": 1142,
+                          "x": 832,
                           "y": 10
                         },
                         "miCpM": {
-                          "content": "编辑",
-                          "x": 52.5
+                          "content": "详情 / 编辑",
+                          "x": 35.5
                         },
                         "0MQC0": {
                           "width": "fit_content",
@@ -15334,8 +15338,8 @@
                           "x": 12
                         },
                         "Pk0kd": {
-                          "content": "KH-2026040102",
-                          "x": 1
+                          "content": "KH-2026041802",
+                          "x": 1.5
                         },
                         "xv43Z": {
                           "height": "fit_content",
@@ -15343,7 +15347,7 @@
                           "x": 112
                         },
                         "GLmqX": {
-                          "content": "李*",
+                          "content": "林*",
                           "x": 60.5
                         },
                         "XA1lN": {
@@ -15352,8 +15356,8 @@
                           "y": 11
                         },
                         "1W2Cy": {
-                          "content": "139****1286",
-                          "x": 15.5
+                          "content": "138****2945",
+                          "x": 14
                         },
                         "GXlCz": {
                           "height": "fit_content",
@@ -15370,8 +15374,8 @@
                           "y": 10
                         },
                         "EPOVA": {
-                          "content": "散客",
-                          "x": 72.5
+                          "content": "体验客",
+                          "x": 66.5
                         },
                         "lYnPN": {
                           "height": "fit_content",
@@ -15379,13 +15383,14 @@
                           "y": 10
                         },
                         "qmByx": {
-                          "content": "前台",
-                          "x": 82.5
+                          "content": "OTA渠道",
+                          "x": 70.5
                         },
                         "HHpCB": {
                           "height": "fit_content",
                           "x": 832,
-                          "y": 10
+                          "y": 10,
+                          "enabled": false
                         },
                         "xij4w": {
                           "content": "投诉风险",
@@ -15393,8 +15398,9 @@
                         },
                         "OWzxn": {
                           "height": "fit_content",
-                          "x": 1052,
-                          "y": 10
+                          "x": 832,
+                          "y": 10,
+                          "enabled": false
                         },
                         "zgvvD": {
                           "content": "待审核",
@@ -15403,33 +15409,36 @@
                         },
                         "ImXJn": {
                           "height": "fit_content",
-                          "x": 1142,
+                          "x": 832,
                           "y": 10
                         },
                         "1iPGq": {
-                          "content": "提交",
-                          "x": 52.5
+                          "content": "详情 / 编辑",
+                          "x": 35.5
                         },
                         "Y1B4E": {
                           "width": "fit_content",
                           "height": "fit_content",
-                          "y": 111
+                          "y": 111,
+                          "enabled": true
                         },
                         "h4ER4": {
                           "height": "fit_content",
                           "x": 12,
-                          "y": 10
+                          "y": 11
                         },
                         "itpyg": {
-                          "x": 37.5
+                          "x": 1,
+                          "content": "KH-2026041803"
                         },
                         "Mah1u": {
                           "height": "fit_content",
                           "x": 112,
-                          "y": 11
+                          "y": 10
                         },
                         "3g3Tp": {
-                          "x": 49
+                          "x": 60.5,
+                          "content": "赵*"
                         },
                         "Macqf": {
                           "height": "fit_content",
@@ -15437,15 +15446,17 @@
                           "y": 11
                         },
                         "L1gkl": {
-                          "x": 48.5
+                          "x": 14.5,
+                          "content": "137****5520"
                         },
                         "pI6oZ": {
                           "height": "fit_content",
                           "x": 362,
-                          "y": 11
+                          "y": 10
                         },
                         "7I2JL": {
-                          "x": 34
+                          "x": 42.5,
+                          "content": "普通"
                         },
                         "XPRtU": {
                           "height": "fit_content",
@@ -15453,7 +15464,8 @@
                           "y": 10
                         },
                         "n2ljC": {
-                          "x": 38
+                          "x": 66.5,
+                          "content": "住店客"
                         },
                         "QsHZM": {
                           "height": "fit_content",
@@ -15461,52 +15473,62 @@
                           "y": 10
                         },
                         "I7RkY": {
-                          "x": 37
+                          "x": 82.5,
+                          "content": "散客"
                         },
                         "iQyh4": {
                           "height": "fit_content",
                           "x": 832,
-                          "y": 10
+                          "y": 10,
+                          "enabled": false
                         },
                         "X9JA3": {
-                          "x": 53.5
+                          "x": 85.5,
+                          "content": "潜在流失"
                         },
                         "r2q4e": {
                           "height": "fit_content",
-                          "x": 1052,
-                          "y": 10
+                          "x": 832,
+                          "y": 10,
+                          "enabled": false
                         },
                         "eJ7n5": {
-                          "x": 26.5
+                          "x": 26.5,
+                          "content": "待审核",
+                          "fill": "#B45309"
                         },
                         "xW0ru": {
                           "height": "fit_content",
-                          "x": 1142,
+                          "x": 832,
                           "y": 10
                         },
                         "3x3cy": {
-                          "x": 35.5
+                          "x": 35.5,
+                          "content": "详情 / 编辑"
                         },
                         "WBLEf": {
                           "width": "fit_content",
                           "height": "fit_content",
-                          "y": 148
+                          "y": 148,
+                          "enabled": true
                         },
                         "WGtFc": {
                           "height": "fit_content",
                           "x": 12,
-                          "y": 10
+                          "y": 11
                         },
                         "rq65m": {
-                          "x": 37.5
+                          "x": 1,
+                          "content": "KH-2026041804"
                         },
                         "v2bga": {
                           "height": "fit_content",
                           "x": 112,
-                          "y": 11
+                          "y": 10
                         },
                         "QQvA7": {
-                          "x": 46.5
+                          "x": 60.5,
+                          "content": "孙*"
                         },
                         "h8Qhy": {
                           "height": "fit_content",
@@ -15514,15 +15536,17 @@
                           "y": 11
                         },
                         "Ezqi2": {
-                          "x": 47
+                          "x": 13.5,
+                          "content": "136****4038"
                         },
                         "YkoP7": {
                           "height": "fit_content",
                           "x": 362,
-                          "y": 11
+                          "y": 10
                         },
                         "45EOm": {
-                          "x": 34
+                          "x": 42.5,
+                          "content": "金卡"
                         },
                         "YJkBF": {
                           "height": "fit_content",
@@ -15530,7 +15554,8 @@
                           "y": 10
                         },
                         "1RzS8": {
-                          "x": 38
+                          "x": 60.5,
+                          "content": "储值会员"
                         },
                         "cWnP1": {
                           "height": "fit_content",
@@ -15538,31 +15563,38 @@
                           "y": 10
                         },
                         "O77vy": {
-                          "x": 37
+                          "x": 70.5,
+                          "content": "OTA渠道"
                         },
                         "vQ0DL": {
                           "height": "fit_content",
                           "x": 832,
-                          "y": 10
+                          "y": 10,
+                          "enabled": false
                         },
                         "TOfcT": {
-                          "x": 60.5
+                          "x": 97.5,
+                          "content": "正常"
                         },
                         "TkclO": {
                           "height": "fit_content",
-                          "x": 1052,
-                          "y": 10
+                          "x": 832,
+                          "y": 10,
+                          "enabled": false
                         },
                         "u6z5w": {
-                          "x": 26.5
+                          "x": 26.5,
+                          "content": "已通过",
+                          "fill": "#16A34A"
                         },
                         "U8oo2": {
                           "height": "fit_content",
-                          "x": 1142,
+                          "x": 832,
                           "y": 10
                         },
                         "Rdg8Q": {
-                          "x": 35.5
+                          "x": 35.5,
+                          "content": "详情 / 编辑"
                         }
                       }
                     }
